@@ -6,7 +6,7 @@ from sklearn.metrics import classification_report, accuracy_score
 import matplotlib.pyplot as plt
 
 
-file_path = '/content/drive/MyDrive/Colab Notebooks/DATASETS/weather.csv'
+file_path = 'file path for dataset'
 weather_data = pd.read_csv(file_path)
 
 categorical_features = ['Outlook', 'Temp', 'Humidity']
