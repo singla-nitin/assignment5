@@ -4,7 +4,7 @@ from sklearn.tree import DecisionTreeClassifier, plot_tree
 from sklearn.metrics import classification_report, accuracy_score
 import matplotlib.pyplot as plt
 
-file_path = '/content/drive/MyDrive/Colab Notebooks/DATASETS/BankNote_Authentication.csv'
+file_path = 'file path for dataset'
 dataset = pd.read_csv(file_path)
 
 X = dataset.drop(columns=['class'])
